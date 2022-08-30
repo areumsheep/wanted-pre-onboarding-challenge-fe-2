@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Source: index.js</title>
+    <title>JSDoc: Source: models/Todo.js</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,7 +17,7 @@
 
 <div id="main">
 
-    <h1 class="page-title">Source: index.js</h1>
+    <h1 class="page-title">Source: models/Todo.js</h1>
 
     
 
@@ -27,10 +27,18 @@
     <section>
         <article>
             <pre class="prettyprint source linenums"><code>/**
- * @file Todo를 구현하기 위한 문서입니다.
- * @author areumsheep &lt;areumsheep@gmail.com>
- * @see {@link https://github.com/areumsheep/wanted-pre-onboarding-challenge-fe-2}
+ * @typedef {Object} Todo
+ * @property {number} id - 일정 id
+ * @property {string} content - 일정 내용
+ * @property {boolean} isCompleted - 일정 완료 여부
+ * @property {string} category - 카테고리
+ * @property {string[]} [tags] - 태그들
  */
+
+/**
+ * @type {Todo}
+ */
+const todo = {};
 </code></pre>
         </article>
     </section>
